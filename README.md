@@ -15,6 +15,8 @@ This julia module can then be loaded and run in the driver
 * ```driver.jl```
 
 ### build
+You'll need to change the ```CMAKE_PREFIX_PATH``` in the ```CMakeLists.txt``` file.
+
 ```
 mkdir build
 cd build
